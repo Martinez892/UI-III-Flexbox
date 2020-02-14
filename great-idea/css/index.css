@@ -57,10 +57,114 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container{
+	width: 900px;
+	margin: auto;
+}
+
+
+header nav{
+	display:flex;
+	justify-content: space-between;
+	line-height: 2;
+}
+
+header nav a{
+	text-decoration: none;
+	color: grey;
+}
+
+.iod-t{
+	display:flex;
+	width: 50%;
+	font-size: 500%;
+	margin-top: 100px;
+	text-align: center;
+
+}
+
+button{
+	margin-left: 76px;
+	width:20%;
+	display:flex;
+	justify-content: center;
+	border: 1px solid black;
+	font-size: large;
+	background: white
+	
+}
+
+.iod img{
+	display:flex;
+	width: 45%;
+	margin-left: 53%;
+	margin-top: -311px;
+}
+
+.main{
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid black;
+	margin-top: 60px;
+	margin-left: -2%;
+}
+.wordone{
+	width: 40%;
+	margin: 20px;
+
+}
+
+.wordtwo{
+	width: 45%;
+	margin: 20px;
+}
+
+.second{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	margin-left: -3%;
+}
+.middle{
+	width: 26%;
+	margin: 30px;
+}
+
+.mimg{
+	display: flex;
+}
+
+.middletwo{
+	width: 26%;
+	margin: 30px;
+}
+
+.middlethree{
+	width: 26%;
+	margin: 30px;
+}
+
+.contact{
+	margin: 20px;
+	margin-left: 0%;
+}
+
+.sales{
+	line-height: 2;
+}
+
+.last{
+	text-align: center;
+}
+
+.mi{
+	display:flex;
+}
